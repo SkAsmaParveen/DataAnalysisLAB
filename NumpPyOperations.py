@@ -81,5 +81,35 @@ h2 = np.zeros(v2.shape)
 print(h2)
 print("Stacking Horizontally: ",np.hstack((h1,h2)))
 
+# creating arrays
+
+import numpy as np
+
+a = np.array([2,3,4,6])
+
+print(np.zeros(a.shape))
+
+print(np.ones(a.shape))
+
+print(np.full((a.shape),3)) # np.full(shape,element to full)
+
+print(np.eye(3,dtype="int")) # np.eye(no.of rows) creates Identity matrix
+
+v1 = np.arange(1,10,2) # np.arange(start, stop, size.ofsteps)
+print(v1)
+
+print(np.linspace(1,10,3)) # np.linspace(start, stop, no. of steps)
+
+print("\n")
+
+# numpy.random.random() is one of the function for doing random sampling in numpy. 
+# It returns an array of specified shape 
+# and fills it with random floats in the half-open interval [0.0, 1.0).
+
+print(np.random.random((2,3))) # np.random.random(size)
+
+
+      
+
 
 
