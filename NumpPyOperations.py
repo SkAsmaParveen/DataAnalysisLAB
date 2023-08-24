@@ -82,3 +82,4 @@ print(h2)
 print("Stacking Horizontally: ",np.hstack((h1,h2)))
 
 
+
