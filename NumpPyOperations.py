@@ -114,6 +114,19 @@ print(np.random.normal(1,5,10)) # np.random.normal(mean, stdev, size or shape) d
 
 print(np.random.randint(2,20,(2,2))) # np.random.randint(low, high, size or shape of matrix)
 
+#create an uninitialized array of 3 elements
+a = np.empty(3)
+print(a)
+
+print(np.array([2,4.6,6]))
+
+#Nested sequences
+
+l1=[2,3,4]
+l2=[1,2,3]
+a=np.array((l1,l2))
+print(a)
+
 
 
       
