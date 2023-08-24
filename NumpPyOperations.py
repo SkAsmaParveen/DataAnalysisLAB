@@ -50,4 +50,35 @@ print("f[0,2,1] : ",f[0,2,1]) # 3d
 
 # SLICING
 
+# he basic slice syntax is i:j:k where i is the starting index, 
+ # j is the stopping index, and k is the step
+    
+s = np.array([1,2,3,4,66,51])  # 1d array slicing
+s[2:5:1]  # x[i : j-1: k]
+
+#both are same
+
+print(s[::-1])
+print(s[:])
+
+print(s[1:-1])
+
+print("\n")
+
+print("To create an array from existing data: Indexing, Slicing, hstack, vstack, hsplit, view, copy ")
+
+print("\n")
+
+v1 = np.arange(1,10,2)
+print(v1)
+v2 = np.arange(10,20,2)
+print(v2)
+print("stacking vertically:  ",np.vstack((v1,v2))) # no.of elements must be same in two arrays
+
+h1 = np.ones(v1.shape)
+print(h1)
+h2 = np.zeros(v2.shape)
+print(h2)
+print("Stacking Horizontally: ",np.hstack((h1,h2)))
+
 
