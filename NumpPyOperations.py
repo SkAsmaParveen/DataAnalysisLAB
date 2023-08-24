@@ -128,6 +128,28 @@ a=np.array((l1,l2))
 print(a)
 
 
+# Numpy array attributes
+
+arr = np.array([5,6,7,3])
+a = np.array([[1,1,2],[3,4,3]])
+# dimension, size and shape of the array
+
+print("The dimension is: ",arr.ndim)
+print("arr.size = The total no. of ele in the array: ",arr.size)
+print("a.shape = The no.of ele stored in each dimension",a.shape)
+
+print("\n")
+#Arithmetic operations with NumPy arrays
+a = np.array([[1., 2., 3.], [4., 5., 6.]],dtype="int")
+print(a)
+print(a+a)
+print(a*a)
+print(1/a)
+print(a-a)
+print(a+10)
+print(a*10)
+
+
 
       
 
