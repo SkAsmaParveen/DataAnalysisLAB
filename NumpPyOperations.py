@@ -108,6 +108,13 @@ print("\n")
 
 print(np.random.random((2,3))) # np.random.random(size)
 
+# normally distributed random values
+
+print(np.random.normal(1,5,10)) # np.random.normal(mean, stdev, size or shape) displays random values in gaussian distribution
+
+print(np.random.randint(2,20,(2,2))) # np.random.randint(low, high, size or shape of matrix)
+
+
 
       
 
